@@ -1,4 +1,3 @@
-cat > ~/quartz/quartz.config.ts << 'EOF'
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -84,10 +83,10 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
+
     ],
   },
 }
 
 export default config
-EOF
