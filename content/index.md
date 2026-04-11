@@ -1,5 +1,6 @@
 ---
 title: The Source
+hide: [date, readingTime]
 ---
 
 **Everything is Everything.**
